@@ -12,6 +12,7 @@ By the end of this session, you will:
 - Learn how to **train and evaluate regression models** using **Scikit-Learn**.
 - Explore different types of regression algorithms.
 - Optimize model performance using **hyperparameter tuning**.
+- Interpret **loss metrics** such as **MSE**, **RMSE**, and **R²**
 
 ---
 
