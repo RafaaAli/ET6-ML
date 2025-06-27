@@ -1,7 +1,7 @@
-# 🌱 Discover New Regression Models
+# Discover New Regression Models
 ---
 
-## 📈 Beyond Simple Linear Models
+## Beyond Simple Linear Models
 
 We looked at fitting a **straight line** to data points. However, regression can model **many kinds of relationships**, including those:
 
@@ -10,7 +10,7 @@ We looked at fitting a **straight line** to data points. However, regression can
 
 ---
 
-## 🔬 Experimenting with Models
+## Experimenting with Models
 
 Regression models are widely used because they are:
 
@@ -37,7 +37,7 @@ However, linear models come in several **variants** designed to improve performa
 One such variant is **Lasso Regression**.
 
 
-### 🧠 What is Lasso?
+### What is Lasso?
 
 **Lasso** stands for **Least Absolute Shrinkage and Selection Operator**. It's a linear regression algorithm that includes a **regularization** term — specifically an **L1 penalty** — in its cost function.
 
@@ -48,7 +48,7 @@ This regularization helps:
 
 
 
-### 🧮 How Lasso Works
+### How Lasso Works
 
 The Lasso cost function is:
 
@@ -67,7 +67,7 @@ This L1 penalty forces the model to reduce less useful weights to zero, effectiv
 
 ---
 
-### 🌳 Decision Trees
+### Decision Trees
 
 - Use a **step-by-step** rule-based approach to predict a variable  
 - Example: In our **bicycle rental** scenario:
@@ -78,17 +78,17 @@ This L1 penalty forces the model to reduce less useful weights to zero, effectiv
 
 ---
 
-### 🧠 Ensemble Algorithms
+### Ensemble Algorithms
 
 - Combine **multiple decision trees** for stronger predictions  
 - Can handle **complex and noisy datasets**  
 - Popular example: **Random Forest**
 
-> 🧪 Ensemble models are widely used in real-world machine learning tasks for their **robustness** and **accuracy**.
+> Ensemble models are widely used in real-world machine learning tasks for their **robustness** and **accuracy**.
 
 ---
 
-## 🧪 Try It Yourself
+## Try It Yourself
 
 Data scientists often **experiment with multiple models** to see which performs best on a given problem.
 
@@ -96,10 +96,10 @@ In the following exercise, you’ll try out a few different models and compare t
 
 ---
 
-### 🚀 Open in Google Colab
+### Open in Google Colab
 
 Click below to launch the notebook and experiment with model training and comparison:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-org/your-repo/blob/main/week2_regression/model_comparison.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1owppMYGhRs9sgOqen9ODF1nKINIsS40n)
 
 ---
