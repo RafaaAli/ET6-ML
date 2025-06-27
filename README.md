@@ -36,14 +36,12 @@ No problem! Start here:
 
 ## Weekly Content
 
-| Week       | Topic                              | Colab Link |
-|------------|------------------------------------|------------|
-| ✅ Week 1  | Data Analysis & Visualization      | [Open Notebook](https://colab.research.google.com/github/your-org/ET6-ML-Workshop/blob/main/week1_data_analysis/data_analysis.ipynb) |
-| ✅ Week 2  | Regression Models                  | [Open Notebook](https://colab.research.google.com/github/your-org/ET6-ML-Workshop/blob/main/week2_regression/regression_exercise.ipynb) |
-| ✅ Week 3  | Classification (Binary & Multiclass) | [Binary](https://colab.research.google.com/github/your-org/ET6-ML-Workshop/blob/main/week3_classification/classification_exercise.ipynb) · [Evaluation](https://colab.research.google.com/github/your-org/ET6-ML-Workshop/blob/main/week3_classification/metrics_evaluation.ipynb) |
-| 🔄 Week 4  | Clustering                         | Coming Soon |
-| 🔄 Week 5  | Deep Learning                      | [Notebook](https://colab.research.google.com/github/your-org/ET6-ML-Workshop/blob/main/week5_deep_learning/deep_learning_exercise.ipynb) |
-
+| Week       | Topic                              | 
+|------------|------------------------------------|
+| ✅ Week 1  | Data Analysis & Visualization      | 
+| ✅ Week 2  | Regression Models                  |
+| 🔄 Week 4  | Clustering                         |
+| 🔄 Week 5  | Deep Learning                      | 
 ---
 
 # Before Session 1
