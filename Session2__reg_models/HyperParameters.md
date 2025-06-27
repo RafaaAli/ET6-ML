@@ -1,10 +1,10 @@
-# 🔧 Improve Models with Hyperparameters
+# Improve Models with Hyperparameters
 
  If your CDSP project involves a large dataset and you're applying linear regression, this section is recommended. It may also be helpful if you’ve selected a similar project for your ELO.
 
 ---
 
-## 🌀 Iterative Training and Tuning
+## Iterative Training and Tuning
 
 Simple models with small datasets can often be trained in a single step.  
 However, **larger datasets** and **more complex models** typically require iterative training — repeatedly feeding training data into the model, evaluating predictions, and adjusting the model accordingly.
@@ -14,7 +14,7 @@ If not, we **tweak** the model and loop again.
 
 ---
 
-## 🎚️ What Are Hyperparameters?
+## What Are Hyperparameters?
 
 **Hyperparameters** are values that control how the model is trained during these loops.  
 For example:
@@ -27,7 +27,7 @@ Tuning hyperparameters helps models learn **efficiently and effectively**.
 
 ---
 
-## 🧼 Preprocessing Data
+## Preprocessing Data
 
 **Preprocessing** refers to preparing data before feeding it to the model.  
 This includes:
@@ -40,7 +40,7 @@ This includes:
 
 ---
 
-## 📏 Scaling Features
+## Scaling Features
 
 A common preprocessing step is to **scale features to a standard range**, usually **between 0 and 1**.
 
@@ -54,7 +54,7 @@ By scaling both to a common range, the model can **learn uniformly from all feat
 
 ---
 
-## 🔢 Using Categories as Features
+## Using Categories as Features
 
 Models can also work with **categorical features** like:
 
@@ -72,10 +72,9 @@ This lets the model understand category membership **numerically**.
 
 ---
 
-## 🚀 Open in Google Colab
+## Open in Google Colab
 
 Click below to explore how hyperparameters and preprocessing impact model performance:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-org/your-repo/blob/main/week2_regression/hyperparameter_tuning.ipynb)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17gOoCWMSX2DMRhnA_xTaYBBpVQsFTCgX)
 ---
