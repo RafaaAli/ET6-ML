@@ -1,6 +1,6 @@
-# 🔢 Regression in Machine Learning
+# Regression in Machine Learning
 
-## 📚 Introduction
+## Introduction
 
 **Regression** is a commonly used machine learning technique for predicting **numeric values**, such as prices, quantities, or sizes.
 
@@ -14,25 +14,7 @@ It is considered one of the most fundamental approaches in applied machine learn
 
 ---
 
-## 🎯 Learning Objectives
-
-By the end of this module, you will be able to:
-
-- Understand **when to use regression models**
-- Train and evaluate regression models using **Scikit-learn**
-- Interpret **loss metrics** such as **MSE**, **RMSE**, and **R²**
-
----
-
-## ✅ Prerequisites
-
-- Basic knowledge of **mathematics** (algebra, functions)
-- Experience with **Python programming**
-- Familiarity with **Jupyter Notebooks**
-
----
-
-## ❓ What is Regression?
+## What is Regression?
 
 Regression works by establishing a **relationship** between:
 
@@ -43,7 +25,7 @@ It’s a form of **supervised learning** — we train the model on labeled histo
 
 ---
 
-## 🧪 Simple Example
+## Simple Example
 
 We aim to predict **bike rentals** using **temperature** as the only feature.
 
@@ -71,7 +53,7 @@ We train the model using five of these points:
 | 76       | 152         |
 
 ---
-## 📈 Model Training
+## Model Training
 
 We aim to find a **function** `f(x)` that maps temperature to rental count, like this:
 
@@ -97,7 +79,7 @@ This means for every 1°F increase in temperature, rentals increase by ~1.7 bike
 
 The line represents a linear function that can be used with any value of x to apply the slope of the line and its intercept (where the line crosses the y axis when x is 0) to calculate y. In this case, if we extended the line to the left, we'd find that when x is 0, y is about 20, and the slope of the line is such that for each unit of x you move along to the right, y increases by about 1.7. We can therefore calculate our f function as 20 + 1.7x.
 
-## 🧪 Validation Example
+## Validation Example
 
 Now we test the model on data it hasn’t seen before:
 
@@ -133,7 +115,7 @@ One of the most common ways to measure the loss is to square the individual resi
 
 For our validation data, the calculation looks like this:
 
-## 📉 Error & Loss
+## Error & Loss
 
 The **difference between actual and predicted values** is called the **residual**.
 
@@ -149,7 +131,7 @@ The **difference between actual and predicted values** is called the **residual*
 
 ---
 
-## 📐 RMSE and Interpretation
+## RMSE and Interpretation
 
 To interpret the error in the original units (rentals), take the square root of MSE:
 
@@ -168,7 +150,7 @@ There are many other metrics that can be used to measure loss in a regression. F
 
 ---
 
-# 📉 Regression
+# Regression
 
 **Supervised machine learning** techniques involve training a model to operate on a set of **features** and predict a **label** using a dataset that includes some already-known label values.
 
@@ -191,7 +173,7 @@ We do this by applying a machine learning algorithm that tries to **fit the x va
 
 ---
 
-## 🔍 Types of Supervised Learning Algorithms
+## Types of Supervised Learning Algorithms
 
 There are many machine learning algorithms for supervised learning. We can broadly divide them into two types:
 
@@ -212,9 +194,10 @@ We'll use a **simplified version** of the dataset from that study.
 
 > 🧪 **Try it on Google Colab**  
 > Click the link below to open the notebook directly in Colab:  
-> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-org/your-repo/blob/main/week2_regression/regression_notebook.ipynb)
+> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bcL4XD7iY7VGdFlzvi2YIjukA5RQ6S4Z)
 ---
 
+>
 📌 **Citation**  
 The data used in this exercise is derived from **Capital Bikeshare**, and it's used in accordance with the published license agreement.
 
