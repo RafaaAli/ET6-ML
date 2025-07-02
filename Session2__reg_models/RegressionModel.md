@@ -21,7 +21,7 @@ Regression works by establishing a **relationship** between:
 - **Features** (independent variables) — e.g., temperature, season, day
 - **Label** (dependent variable) — the value to predict (e.g., number of rentals)
 
-It’s a form of **supervised learning** — we train the model on labeled historical data and evaluate its predictions on unseen data.
+It’s a form of [**supervised learning**](https://github.com/MIT-Emerging-Talent/ET6-Recitations-6002x/blob/main/Session_08/ML.md) — we train the model on labeled historical data and evaluate its predictions on unseen data.
 
 ---
 
