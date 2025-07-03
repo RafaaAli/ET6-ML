@@ -1,90 +1,17 @@
 # Discover New Regression Models
 ---
 
-## Beyond Simple Linear Models
+In previous unit, we looked at fitting a straight line to data points. However, regression can fit many kinds of relationships, including those with multiple factors and those where the importance of one factor depends on another.
 
-We looked at fitting a **straight line** to data points. However, regression can model **many kinds of relationships**, including those:
-
-- With **multiple factors**
-- Where one factor's influence depends on another
-
+# Experimenting with models
 ---
+Regression models are often chosen because they work with small data samples, are robust, easy to interpret, and a variety exist.
 
-## Experimenting with Models
+**Linear regression** is the simplest form of regression, with no limit to the number of features used. Linear regression comes in many forms, often named by the number of features used and the shape of the curve that fits.
 
-Regression models are widely used because they are:
+**Decision trees** take a step-by-step approach to predicting a variable. If we think of our bicycle example, the decision tree might be first split examples between ones that are during Spring/Summer and Autumn/Winter, make a prediction based on the day of the week. Spring/Summer-Monday might have a bike-rental rate of 100 per day, while Autumn/Winter-Monday might have a rental rate of 20 per day.
 
-- Effective with **small datasets**
-- **Robust** and resistant to noise
-- **Interpretable**
-- Available in a variety of forms
-
----
-
-### 🔹 Linear Regression
-
-- The **simplest form** of regression  
-- Can handle **any number of features**  
-- Comes in variants based on:
-  - The **number of features**
-  - The **shape** of the curve that fits the data
-
-### ➕ Linear Algorithms: Beyond Basic Linear Regression
-
-So far, we've used **Linear Regression**, specifically the **Ordinary Least Squares (OLS)** method.  
-However, linear models come in several **variants** designed to improve performance and handle more complex scenarios — especially when dealing with **high-dimensional data**.
-
-One such variant is **Lasso Regression**.
-
-
-### What is Lasso?
-
-**Lasso** stands for **Least Absolute Shrinkage and Selection Operator**. It's a linear regression algorithm that includes a **regularization** term — specifically an **L1 penalty** — in its cost function.
-
-This regularization helps:
-
-- Prevent **overfitting**
-- Automatically **select important features** by shrinking some coefficients to **exactly zero**
-
-
-
-### How Lasso Works
-
-The Lasso cost function is:
-
-```math
-Loss = MSE + λ * Σ|wᵢ|
-```
-Where:
-
-- MSE is the Mean Squared Error
-
-- λ (lambda) is a regularization hyperparameter
-
-- Σ|wᵢ| is the sum of the absolute values of the model weights
-
-This L1 penalty forces the model to reduce less useful weights to zero, effectively performing feature selection during training.
-
----
-
-### Decision Trees
-
-- Use a **step-by-step** rule-based approach to predict a variable  
-- Example: In our **bicycle rental** scenario:
-  - The tree might first split data based on season (Spring/Summer vs. Autumn/Winter)
-  - Then, make predictions based on the day of the week
-  - E.g., Spring/Summer-Monday → 100 rentals/day  
-    Autumn/Winter-Monday → 20 rentals/day
-
----
-
-### Ensemble Algorithms
-
-- Combine **multiple decision trees** for stronger predictions  
-- Can handle **complex and noisy datasets**  
-- Popular example: **Random Forest**
-
-> Ensemble models are widely used in real-world machine learning tasks for their **robustness** and **accuracy**.
+**Ensemble algorithms** construct not just one decision tree, but a large number of trees, allowing better predictions on more complex data. Ensemble algorithms, such as Random Forest, are widely used in machine learning and data science due to their strong prediction abilities.
 
 ---
 
