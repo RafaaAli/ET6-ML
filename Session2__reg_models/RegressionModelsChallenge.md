@@ -21,8 +21,8 @@ You are given a dataset containing socio-economic and geographic information abo
 1. Load the California Housing dataset:
    ```python
    from sklearn.datasets import fetch_california_housing
-   housing = fetch_california_housing(as_frame=True)
-   data = housing.frame
+   data = fetch_california_housing(as_frame=True)
+   df = data.frame
    ```
   
 2. **Prepare features and target variable**  
