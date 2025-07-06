@@ -1,14 +1,16 @@
-# ML Model Comparison Challenge
+#  ML Model Comparison Challenge
 
-Welcome to this hands-on challenge from the *Empowering Insight* ML workshop. In this task, you'll build and compare machine learning models for regression and classification — with a focus on modeling, not data exploration.
-
-## Objective
-
-This challenge is designed to help you practice training and evaluating different ML models. We intentionally skip detailed data exploration and visualization so you can gain more practical experience with setting up, fitting, and tuning models.
+Welcome to this hands-on challenge from the *Empowering Insight* ML workshop. In this task, you'll build and compare machine learning models for **regression** — with a focus on modeling, not data exploration.
 
 ---
 
-## Challenge 1: California House Price Prediction (Regression)
+## Objective
+
+This challenge is designed to help you practice training and evaluating different regression models. We intentionally skip detailed data exploration and visualization so you can gain more practical experience with setting up, fitting, and tuning models.
+
+---
+
+## Challenge: California House Price Prediction
 
 ### Scenario
 
@@ -16,52 +18,53 @@ You are given a dataset containing socio-economic and geographic information abo
 
 ### What to Do
 
-1. Load the California Housing dataset.
-   ```pyton
+1. Load the California Housing dataset:
+   ```python
    from sklearn.datasets import fetch_california_housing
    housing = fetch_california_housing(as_frame=True)
    data = housing.frame
    ```
-   
-3. Split the data into training and test sets.
-4. Train the following regression models:
+  
+2. **Prepare features and target variable**  
+   - Identify the independent variables (features) and the dependent variable (target) from the dataset.
+
+3. **Split the data into training and test sets**  
+   - Use `train_test_split` to divide your data (typically 70/30 or 80/20).
+
+4. **Train the following regression models**:
    - Linear Regression
    - Lasso Regression
+   - Decision Tree Regressor
    - Random Forest Regressor
    - Gradient Boosting Regressor
-5. Evaluate each model using **Root Mean Squared Error (RMSE) and R ^2**.
-6. Plot regression lines for a single feature to compare model fit.
 
-💡 **Focus**: How do ensemble and regularized models compare to simple linear regression?
+5. **Evaluate each model** using:
+   - Root Mean Squared Error (RMSE)
+   - R² score
 
----
-
-## Challenge 2: Mushroom Classification (Decision Tree)
-
-### Scenario
-
-Using the UCI Mushroom dataset, build a classifier to determine if a mushroom is **edible or poisonous** based on physical attributes.
-
-### What to Do
-
-1. Load and preprocess the dataset using one-hot encoding.
-2. Split the dataset into training and test sets.
-3. Train a **Decision Tree Regressor**.
+6. **Plot regression lines** for a single feature (e.g., `MedInc`) to compare how each model fits the data visually.
 
 ---
 
-## Key Skills Practiced
+## Key Focus
 
-- Regression model training
-- Use of RMSE and classification metrics
-- Code organization for real-world modeling tasks
+Compare how **regularized**, **tree-based**, and **ensemble models** perform against **basic linear regression** in terms of predictive accuracy and model complexity.
 
 ---
 
 ## Final Note
 
-Please attempt to complete the challenges on your own. We’ll provide a solution notebook for review — compare it with your work and reflect on any differences or improvements.
+Try to complete the challenge independently.  
+I have provided a **solution notebook** so you can:
+- Review best practices
+- Compare results
+- Reflect on your modeling decisions
+  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YKHWXuvdJwrx5OU6svEgphIEmvBNVsyw#scrollTo=kfRvdkcJTePg)
 
-This exercise is a great preparation step for the **Collaborative Data Science Project (CDSP)**, where you’ll model real data using similar tools and approaches.
+This exercise is great preparation for your **Collaborative Data Science Project (CDSP)**, where you'll apply similar tools on your own dataset.
 
-Happy modeling! 
+---
+
+Happy modeling! 🚀
+
