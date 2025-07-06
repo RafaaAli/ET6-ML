@@ -1,72 +1,71 @@
-# 🧠 Regression Challenge: Predicting Property Prices
+# ML Model Comparison Challenge
 
-Predicting the **selling price** of a residential property depends on several factors, including property age, nearby amenities, and location.
+Welcome to this hands-on challenge from the *Empowering Insight* ML workshop. In this task, you'll build and compare machine learning models for regression and classification — with a focus on modeling, not data exploration.
 
-In this challenge, you'll use a dataset of **real estate sales transactions** to predict the **price-per-unit** of a property based on its features. The price-per-unit in this dataset corresponds to a unit measurement of **3.3 square meters**.
+## Objective
 
----
-
-## 📚 Dataset Source
-
-Citation:
-> Yeh, I. C., & Hsu, T. K. (2018). *Building real estate valuation models with comparative approach through case-based reasoning.* Applied Soft Computing, 65, 260-271.
-
-Retrieved from the UCI ML Repository:
-> Dua, D. and Graff, C. (2019). *UCI Machine Learning Repository.* Irvine, CA: University of California, School of Information and Computer Science.
+This challenge is designed to help you practice training and evaluating different ML models. We intentionally skip detailed data exploration and visualization so you can gain more practical experience with setting up, fitting, and tuning models.
 
 ---
 
-## 📊 Review the Data
+## Challenge 1: California House Price Prediction (Regression)
 
-Run the following Python code to load and inspect the dataset:
+### Scenario
 
-```python
-import pandas as pd
+You are given a dataset containing socio-economic and geographic information about California districts. Your goal is to predict the **median house value** based on features such as income, housing age, and population.
 
-# Load the dataset
-data = pd.read_csv('data/real_estate.csv')
-data.head()
-```
+### What to Do
 
----
+1. Load the California Housing dataset.
+   ```pyton
+   from sklearn.datasets import fetch_california_housing
+   housing = fetch_california_housing(as_frame=True)
+   data = housing.frame
+   ```
+   
+3. Split the data into training and test sets.
+4. Train the following regression models:
+   - Linear Regression
+   - Lasso Regression
+   - Random Forest Regressor
+   - Gradient Boosting Regressor
+5. Evaluate each model using **Root Mean Squared Error (RMSE) and R ^2**.
+6. Plot regression lines for a single feature to compare model fit.
 
-## 💡 Feature Descriptions
-
-| Feature                    | Description                                                        |
-|---------------------------|--------------------------------------------------------------------|
-| `transaction_date`        | Date of transaction (e.g., 2013.250 = March 2013)                  |
-| `house_age`               | Age of the house (in years)                                        |
-| `transit_distance`        | Distance to the nearest light rail station (in meters)            |
-| `local_convenience_stores`| Number of nearby convenience stores                                |
-| `latitude`                | Geographic coordinate - latitude                                   |
-| `longitude`               | Geographic coordinate - longitude                                  |
-| `price_per_unit`          | House price per unit area (target label, in 3.3 m² units)          |
-
----
-
-## 🎯 Task
-
-Your challenge is to:
-
-- 🔍 Explore and prepare the data  
-- 🧠 Select predictive features that help predict the `price_per_unit`  
-- 🛠️ Train a regression model to predict housing prices  
-- 🎯 Achieve a **Root Mean Squared Error (RMSE) < 7** on your test set  
-
-There is **no single correct solution** — be creative! Use markdown and code cells in your notebook to document your process and decisions.
-
-📎 *A sample solution is available in* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1owppMYGhRs9sgOqen9ODF1nKINIsS40n)
+💡 **Focus**: How do ensemble and regularized models compare to simple linear regression?
 
 ---
 
-## 🧪 Use the Trained Model
+## Challenge 2: Mushroom Classification (Decision Tree)
 
-Once you have a trained model, use it to predict `price_per_unit` for the following transactions:
+### Scenario
 
-| transaction_date | house_age | transit_distance | local_convenience_stores | latitude  | longitude |
-|------------------|-----------|------------------|---------------------------|-----------|-----------|
-| 2013.167         | 16.2      | 289.3248         | 5                         | 24.98203  | 121.54348 |
-| 2013.000         | 13.6      | 4082.015         | 0                         | 24.94155  | 121.50381 |
+Using the UCI Mushroom dataset, build a classifier to determine if a mushroom is **edible or poisonous** based on physical attributes.
 
+### What to Do
 
+1. Load and preprocess the dataset using one-hot encoding.
+2. Split the dataset into training and test sets.
+3. Train a **Decision Tree Classifier**.
+4. Evaluate it using **accuracy** and a **classification report**.
 
+💡 **Focus**: How well does a tree-based model classify categorical data? What are the trade-offs?
+
+---
+
+## Key Skills Practiced
+
+- Regression and classification model training
+- Hyperparameter awareness (e.g., Lasso’s alpha)
+- Use of RMSE and classification metrics
+- Code organization for real-world modeling tasks
+
+---
+
+## Final Note
+
+Please attempt to complete the challenges on your own. We’ll provide a solution notebook for review — compare it with your work and reflect on any differences or improvements.
+
+This exercise is a great preparation step for the **Collaborative Data Science Project (CDSP)**, where you’ll model real data using similar tools and approaches.
+
+Happy modeling! 🔍📊
