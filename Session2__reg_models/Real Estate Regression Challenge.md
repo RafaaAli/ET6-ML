@@ -46,17 +46,13 @@ Using the UCI Mushroom dataset, build a classifier to determine if a mushroom is
 
 1. Load and preprocess the dataset using one-hot encoding.
 2. Split the dataset into training and test sets.
-3. Train a **Decision Tree Classifier**.
-4. Evaluate it using **accuracy** and a **classification report**.
-
-💡 **Focus**: How well does a tree-based model classify categorical data? What are the trade-offs?
+3. Train a **Decision Tree Regressor**.
 
 ---
 
 ## Key Skills Practiced
 
-- Regression and classification model training
-- Hyperparameter awareness (e.g., Lasso’s alpha)
+- Regression model training
 - Use of RMSE and classification metrics
 - Code organization for real-world modeling tasks
 
@@ -68,4 +64,4 @@ Please attempt to complete the challenges on your own. We’ll provide a solutio
 
 This exercise is a great preparation step for the **Collaborative Data Science Project (CDSP)**, where you’ll model real data using similar tools and approaches.
 
-Happy modeling! 🔍📊
+Happy modeling! 
