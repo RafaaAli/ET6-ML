@@ -55,7 +55,7 @@ Your challenge is to:
 
 There is **no single correct solution** — be creative! Use markdown and code cells in your notebook to document your process and decisions.
 
-📎 *A sample solution is available in* `02 - [GoogleColab]().
+📎 *A sample solution is available in* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1owppMYGhRs9sgOqen9ODF1nKINIsS40n)
 
 ---
 
