@@ -1,14 +1,14 @@
-# 📊 Evaluate Classification Models
+# Evaluate Classification Models
 
 ---
 
-## 🎯 Why Evaluate on Unseen Data?
+## Why Evaluate on Unseen Data?
 
 The **training accuracy** of a classification model is not enough — what really matters is how well the model performs on **new, unseen data**. After all, the true goal of machine learning is to make accurate predictions in real-world scenarios.
 
 ---
 
-## 🧪 Prediction Review
+## Prediction Review
 
 Previously, we trained a model to predict whether a patient is diabetic based on their **blood glucose level**.
 
@@ -29,14 +29,14 @@ Here's how the model performs on test data not used in training:
 
 ---
 
-## 🧮 Why Accuracy Isn’t Enough
+## Why Accuracy Isn’t Enough
 
 Simply calculating the number of correct predictions can be misleading.  
 We need **richer metrics** to understand different types of errors.
 
 ---
 
-## 🧾 Confusion Matrix
+## Confusion Matrix
 
 A **confusion matrix** gives a more detailed view:
 
@@ -57,7 +57,7 @@ Shading is often used to emphasize the diagonal cells where predicted = actual.
 
 ---
 
-## 📐 Key Evaluation Metrics
+## Key Evaluation Metrics
 
 Based on the confusion matrix:
 
@@ -74,10 +74,9 @@ These metrics provide a **nuanced view** of model performance — especially imp
 
 ---
 
-## 🚀 Exercise - Perform Classification with Alternative Metrics
+## Exercise - Perform Classification with Alternative Metrics
 
 Click below to open the interactive exercise in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-org/your-repo/blob/main/week3_classification/classification_metrics.ipynb)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1O4UZALpsUtOjcgn2wUA5jUKVxA9VdB3Q)
 ---
