@@ -1,4 +1,4 @@
-# 🧠 Introduction to Classification
+# Introduction to Classification
 
 Classification models are used to make decisions or assign items into categories. Unlike regression modules, which output continuous numbers such as heights or weights, 
 classification models output Boolean values—either true or false—or categorical decisions, such as apple, banana, or cherry.
@@ -6,7 +6,7 @@ classification models output Boolean values—either true or false—or categori
 There are many types of classification models. Some work similarly to classical regression models, while others are fundamentally different.
 ---
 
-## 📘 Introduction
+## Introduction
 
 **Classification** is a type of machine learning in which a model is trained to predict which **category** or **class** an item belongs to.
 
@@ -14,7 +14,7 @@ There are many types of classification models. Some work similarly to classical 
 
 ---
 
-## 🔠 Categorical Data
+## Categorical Data
 
 - **Categorical data** has predefined classes rather than numeric values.
 - Some variables can be **both categorical or numeric**, depending on context.  
@@ -25,24 +25,7 @@ There are many types of classification models. Some work similarly to classical 
 
 ---
 
-## ✅ Prerequisites
-
-- Basic understanding of **mathematics**
-- Some experience with **Python programming**
-- Familiarity with **Jupyter Notebooks**
-
----
-
-## 🎯 Learning Objectives
-
-In this module, you will learn:
-
-- When to use **classification**
-- How to **train and evaluate a classification model** using the **Scikit-Learn** framework
-
----
-
-## ❓ What is Classification?
+## What is Classification?
 
 - **Binary classification** involves two categories (e.g., diabetic or non-diabetic).
 - The model predicts the **probability** for each class:
@@ -53,7 +36,7 @@ In this module, you will learn:
 
 ---
 
-## 🔬 Training and Evaluating a Classification Model
+## Training and Evaluating a Classification Model
 
 Classification is a **supervised learning** technique.  
 It uses:
@@ -68,7 +51,7 @@ We:
 
 ---
 
-## 🧪 A Simple Example
+## A Simple Example
 
 Let’s explore classification using a **single feature**: blood glucose level.
 
@@ -106,7 +89,7 @@ This suggests a **sigmoid function** (logistic curve) fits well.
 
 ---
 
-### 🧮 Logistic Function (Sigmoid)
+### Logistic Function (Sigmoid)
 
 - The sigmoid function gives us a smooth transition from class `0` to `1`.
 - Threshold (e.g., `0.5`) divides predictions:
@@ -127,7 +110,7 @@ Let's test it with the two data values we held back.
 
 ---
 
-## 📊 Predictions vs. Actual Labels
+## Predictions vs. Actual Labels
 
 Now let’s compare predictions (`ŷ`, or "y-hat") from the logistic model with actual labels:
 
@@ -148,7 +131,7 @@ These results illustrate how **thresholding** affects prediction accuracy.
 ---
 
 
-## 🚀 Train and Evaluate a Classification Model
+## Train and Evaluate a Classification Model
 
 Click the button below to open the notebook in Google Colab and follow along with the training and evaluation steps:
 
