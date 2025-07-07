@@ -135,6 +135,6 @@ These results illustrate how **thresholding** affects prediction accuracy.
 
 Click the button below to open the notebook in Google Colab and follow along with the training and evaluation steps:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-org/your-repo/blob/main/week3_classification/classification_model.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uPsMviiPZ9u98rK2i_rSPT1prG2SyqrG#scrollTo=Pms9X5d3hEvV)
 
 ---
