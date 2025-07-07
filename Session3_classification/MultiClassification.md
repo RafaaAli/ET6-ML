@@ -1,8 +1,8 @@
-# 🧠 Create Multiclass Classification Models
+# Create Multiclass Classification Models
 
 ---
 
-## 🔢 What is Multiclass Classification?
+## What is Multiclass Classification?
 
 Multiclass classification is an extension of binary classification where the model can predict **more than two possible classes**.
 
@@ -15,7 +15,7 @@ The model still produces probability values for each class, and the **probabilit
 
 ---
 
-## 🧠 How Multiclass Classification Works
+## How Multiclass Classification Works
 
 Multiclass classification is typically built by **combining multiple binary classifiers**. Two common strategies are:
 
@@ -34,7 +34,7 @@ Multiclass classification is typically built by **combining multiple binary clas
 
 ---
 
-### 🔸 One-vs-One (OVO)
+### One-vs-One (OVO)
 
 - A separate classifier is trained for **each pair** of classes.
 
@@ -50,7 +50,7 @@ The final prediction is based on **combining all binary results** to determine t
 
 ---
 
-## 🧰 Implementation in Scikit-Learn
+## Implementation in Scikit-Learn
 
 Fortunately, **Scikit-Learn supports multiclass classification out of the box**.  
 Most classifiers automatically apply OVR or support both strategies.
@@ -59,10 +59,9 @@ This means you can often use the **same code as binary classification**, and Sci
 
 ---
 
-## 🚀 Next Step: Train and Evaluate Multiclass Classification Models
+## Next Step: Train and Evaluate Multiclass Classification Models
 
 Click the button below to open the hands-on exercise in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-org/your-repo/blob/main/week3_classification/multiclass_classification.ipynb)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mb7cONuu6Grb1LTb2n9Kxz3bizBjxTM7)
 ---
