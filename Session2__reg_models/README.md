@@ -56,7 +56,7 @@ You can open the live coding exercises below:
 
 - 🔗 [Train a Regression Model – Colab](https://colab.research.google.com/drive/1bcL4XD7iY7VGdFlzvi2YIjukA5RQ6S4Z)
 - 🔗 [Experiment with Additional Models – Colab](https://colab.research.google.com/drive/1owppMYGhRs9sgOqen9ODF1nKINIsS40n)
-- 🔗 [Optimize and Save Models – Colab](https://colab.research.google.com/drive/YOUR_NOTEBOOK_ID)
+- 🔗 [Optimize and Save Models – Colab](https://colab.research.google.com/drive/17gOoCWMSX2DMRhnA_xTaYBBpVQsFTCgX))
 
 ---
 
