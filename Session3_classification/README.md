@@ -51,8 +51,9 @@ To follow along smoothly, you should have:
 
 ## Notebook Access
 
-- [Open in Colab – Binary Classification Exercise](#)  
-- [Open in Colab – Multiclass Classification Exercise](#)
+- Binary Classification Exercise: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uPsMviiPZ9u98rK2i_rSPT1prG2SyqrG#scrollTo=Pms9X5d3hEvV)
+- Evaluation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1O4UZALpsUtOjcgn2wUA5jUKVxA9VdB3Q) 
+- Multiclass Classification Exercise: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mb7cONuu6Grb1LTb2n9Kxz3bizBjxTM7)
 
 ---
 
