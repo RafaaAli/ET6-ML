@@ -61,12 +61,15 @@ Based on the confusion matrix:
 
 - **Accuracy** = (TP + TN) / Total  
   _How many predictions were correct overall?_
+  - Of all the people in the dataset, how many did we classify correctly (both diabetic and non-diabetic)?
 
 - **Recall** = TP / (TP + FN)  
   _Out of all actual positives, how many did the model correctly identify?_
+  - Of all the people who are truly diabetic, how many did we find?
 
 - **Precision** = TP / (TP + FP)  
   _Out of all predicted positives, how many were actually positive?_
+  - Of all the people predicted as diabetic, how many actually are?
 
 These metrics provide a **nuanced view** of model performance — especially important in domains like healthcare where **false negatives or false positives** carry real consequences.
 
