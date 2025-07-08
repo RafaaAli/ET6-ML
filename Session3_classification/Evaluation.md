@@ -53,8 +53,6 @@ Where:
 - **FP** = False Positives  
 - **FN** = False Negatives
 
-Shading is often used to emphasize the diagonal cells where predicted = actual.
-
 ---
 
 ## Key Evaluation Metrics
