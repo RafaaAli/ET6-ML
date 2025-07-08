@@ -14,7 +14,7 @@ Your task is to:
 - Evaluate your model using **precision**, **recall**, **F1-score**, and **AUC**.
 - Your goal: **achieve a recall greater than 0.95 (95%)**.
 
-> There is no single correct solution — experiment, document your steps, and explain your reasoning.
+> There is no single correct solution — experiment, document your steps.
 
 ---
 
@@ -38,3 +38,5 @@ Once you're satisfied with the model's performance, use it to predict the class 
 sample1 = [13.72, 1.43, 2.5, 16.7, 108, 3.4, 3.67, 0.19, 2.04, 6.8, 0.89, 2.87, 1285]
 sample2 = [12.37, 0.94, 1.36, 10.6, 88, 1.98, 0.57, 0.28, 0.42, 1.95, 1.05, 1.82, 520]
 ```
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16nx9LuP1840OH_IF9YiWPa7ZnPC4o-Ma#scrollTo=7Nx1lI9B_AM7)
