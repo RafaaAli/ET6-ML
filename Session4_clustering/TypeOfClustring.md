@@ -1,10 +1,8 @@
-# 🧠 Session 4 Continued: Training a Clustering Model
-
-## 🔧 Training a Clustering Model
+# Training a Clustering Model
 
 There are several clustering algorithms, but one of the most commonly used is **K-Means Clustering**. Here's how it works:
 
-### 🚶 K-Means Clustering Steps:
+### K-Means Clustering Steps:
 1. **Vectorization**: Feature values are converted into coordinates.  
    For example, in our flower dataset, two features (petals and leaves) form 2D vectors.
 2. **Choose k Clusters**: Decide how many clusters you want (k).  
@@ -16,7 +14,7 @@ There are several clustering algorithms, but one of the most commonly used is **
    - Clusters stabilize (no major changes)
    - A maximum number of iterations is reached
 
-### 🎞️ K-Means in Action
+### K-Means in Action
 *The following animation shows this process visually:*
 
 <p align="center">
@@ -27,22 +25,22 @@ There are several clustering algorithms, but one of the most commonly used is **
 
 ---
 
-## 🌲 Hierarchical Clustering
+## Hierarchical Clustering
 
 Another important technique is **Hierarchical Clustering**, where clusters are nested within larger clusters. This creates a tree-like structure where data can be grouped at different levels of granularity.
 
-### 🪜 Example:
+### Example:
 - Words like _“angry”_ and _“happy”_ may form a small cluster of emotion-related adjectives.
 - This group could belong to a broader cluster of human-related adjectives like _“young”_, _“handsome”_, etc.
 - That cluster can be part of an even broader one for all adjectives.
 
-### 🧭 Key Points:
+### Key Points:
 - Does **not** require specifying the number of clusters in advance.
 - Helps explore relationships between groups.
 - Tends to be more **interpretable** than K-Means in some scenarios.
 - Can be **computationally expensive** — not always ideal for large datasets.
 
-### 🖼️ Visualizing Hierarchical Clustering
+### Visualizing Hierarchical Clustering
 
  <p align="center">
     <img src="https://github.com/MIT-Emerging-Talent/ML/blob/main/Session4/Images/6.jpg" alt="Description" width="600"/>
@@ -50,4 +48,5 @@ Another important technique is **Hierarchical Clustering**, where clusters are n
 
 ---
 
-📌 **Note**: Replace the links above (`https://your-public-url.com/...`) with actual URLs from GitHub, Google Drive (with public sharing), or another hosting service that supports direct image display.
+### Exercise - Train and evaluate advanced clustering models
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ylyam6zsGUPw-9wC7nRxlVUsrnvbAQw6?usp=sharing)
