@@ -132,3 +132,8 @@ These inputs are usually **fixed-length vectors**, where each value represents a
 ---
 
 > You are now ready to start building and training your first DNN in PyTorch!
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ey7AZ5Puplnrls652BaTBsOGFltdxJH3#scrollTo=S5pB85fFBp8c)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z7zZGs6MFpnRil2UwLjEZDV2ECX4Tvmq#scrollTo=p5QCZAZdCrtT)
+
