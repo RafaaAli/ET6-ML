@@ -9,7 +9,7 @@ A neural network is composed of individual neurons that take inputs, apply weigh
 
 ## Deep Neural Networks (DNN) Overview
 
-**🧠 Brain vs Neural Network Analogy**
+**Brain vs Neural Network Analogy**
 
 The human brain is made up of neurons connected by synapses. Each neuron receives signals, processes them, and passes them to other neurons.
 
@@ -25,6 +25,7 @@ Just like your brain learns patterns over time, DNNs learn patterns from data.
  <p align="center">
   <img src="Images/dnn.png" alt="Description" width="800"/>
 </p>
+
 ## When Do We Use Deep Learning?
 
 Deep learning is useful when:
