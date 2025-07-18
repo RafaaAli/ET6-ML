@@ -50,16 +50,16 @@ This dataset is a common benchmark for testing non-linear classifiers.
 - Matplotlib
 - Helper function: `plot_decision_boundary()`
   
-  ```python
-  # Download Helper Function (plot_decision_boundary)
-  if not Path("helper_functions.py").exists():
-      r = requests.get("https://raw.githubusercontent.com/mrdbourke/pytorch-deep-learning/main/helper_functions.py")
-      with open("helper_functions.py", "wb") as f:
-          f.write(r.content)
-  
-  from helper_functions import plot_decision_boundary
-```
-
+    ```python
+    # Download Helper Function (plot_decision_boundary)
+    if not Path("helper_functions.py").exists():
+        r = requests.get("https://raw.githubusercontent.com/mrdbourke/pytorch-deep-learning/main/helper_functions.py")
+        with open("helper_functions.py", "wb") as f:
+            f.write(r.content)
+    
+    from helper_functions import plot_decision_boundary
+    ```
+---
 
 
 ## Model Comparison
@@ -68,6 +68,8 @@ This dataset is a common benchmark for testing non-linear classifiers.
 |---------------|------------|-------------------|----------|--------------------|
 | `model_linear` | None       | Straight line     | Moderate | Underfits data     |
 | `model_relu`   | ReLU       | Non-linear curve  | Higher   | Captures patterns  |
+
+---  
 
 
 ---
@@ -83,4 +85,11 @@ This exercise is designed for students learning:
 
 ---
 
-## Solution 
+## Solution
+
+
+### Exercise - Train and evaluate advanced clustering models
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YbswGJBSUMEfBnCJ8hAwM0x5UAXc1mvN#scrollTo=4srR5yVuUy4T)
+
+
+
