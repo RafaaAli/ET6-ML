@@ -4,7 +4,7 @@ This project demonstrates how to build, train, and evaluate a neural network cla
 
 ---
 
-## 🚀 Scenario
+## Scenario
 
 Imagine you're working on a **space radar system** that classifies objects based on their radar signature patterns.
 
@@ -18,7 +18,7 @@ This project guides you through the full deep learning workflow:
 
 ---
 
-## 🧠 What You'll Learn
+## What You'll Learn
 
 - How to **generate non-linear data** using `make_moons()`
 - How to **build a binary classification model** in PyTorch
@@ -31,7 +31,7 @@ This project guides you through the full deep learning workflow:
 
 ---
 
-## 🧪 Dataset
+## Dataset
 
 We use the `make_moons()` function from `sklearn.datasets` to generate:
 - 1000 samples
@@ -42,24 +42,45 @@ This dataset is a common benchmark for testing non-linear classifiers.
 
 ---
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 
 - Python 3.11+
 - PyTorch
 - Scikit-learn
 - Matplotlib
-- Helper function: `plot_decision_boundary()` from [Daniel Bourke’s PyTorch course](https://github.com/mrdbourke/pytorch-deep-learning)
+- Helper function: `plot_decision_boundary()`
+  
+  ```python
+  # Download Helper Function (plot_decision_boundary)
+  if not Path("helper_functions.py").exists():
+      r = requests.get("https://raw.githubusercontent.com/mrdbourke/pytorch-deep-learning/main/helper_functions.py")
+      with open("helper_functions.py", "wb") as f:
+          f.write(r.content)
+  
+  from helper_functions import plot_decision_boundary
+```
 
----
 
-## 📊 Model Comparison
+
+## Model Comparison
 
 | Model         | Activation | Decision Boundary | Accuracy | Notes             |
 |---------------|------------|-------------------|----------|--------------------|
 | `model_linear` | None       | Straight line     | Moderate | Underfits data     |
 | `model_relu`   | ReLU       | Non-linear curve  | Higher   | Captures patterns  |
 
+
 ---
 
-## 📁 Project Structure
+## Educational Use
 
+This exercise is designed for students learning:
+
+- Neural network fundamentals
+- Classification in PyTorch
+- Shape handling, logits, sigmoid, and training loops
+- Why non-linearity matters
+
+---
+
+## Solution 
